@@ -7,7 +7,7 @@ The notebook compares supervised student training with **response-based** and **
 ## Repository contents
 
 ```text
-Knowledge_Distillation_Assignment.ipynb  # Complete assignment with saved outputs
+Knowledge Distillation.ipynb  # Complete assignment with saved outputs
  data/
    train.csv                            # Original SST-2 training split
    validation.csv                       # Original SST-2 validation split
@@ -21,7 +21,7 @@ Knowledge_Distillation_Assignment.ipynb  # Complete assignment with saved output
    test-f1.png                          # Final notebook F1 plot
 ```
 
-Open [the assignment notebook](Knowledge_Distillation_Assignment.ipynb) for the explanations, dataset exploration, training code, and saved results. Model weights are downloaded or generated when the notebook runs and are not included in this repository.
+Open [the assignment notebook](Knowledge%20Distillation.ipynb) for the explanations, dataset exploration, training code, and saved results. Model weights are downloaded or generated when the notebook runs and are not included in this repository.
 
 ## Dataset and experiment
 
@@ -83,7 +83,7 @@ Use a Python environment with Jupyter and internet access for the initial datase
 git clone https://github.com/TurgudValiyev2002/EDGE-AI---knowledge_distillation.git
 cd EDGE-AI---knowledge_distillation
 python -m pip install jupyterlab
-python -m jupyter lab Knowledge_Distillation_Assignment.ipynb
+python -m jupyter lab "Knowledge Distillation.ipynb"
 ```
 
 Select the intended Python kernel and run the cells from top to bottom with the repository root as the working directory. The dependency cell installs missing packages: NumPy, pandas, Matplotlib, scikit-learn, PyTorch, WordCloud, Datasets, Transformers, and huggingface_hub.
