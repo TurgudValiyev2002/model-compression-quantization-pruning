@@ -2,7 +2,7 @@
 
 An Edge AI assignment exploring how a compact **BERT-Tiny student** can learn from a larger **DistilBERT teacher** on binary movie-review sentiment classification: negative (`0`) or positive (`1`).
 
-The notebook compares supervised student training with **response-based** and **feature-based knowledge distillation**. Although the repository name also mentions quantization and pruning, the current assignment implements knowledge distillation.
+The notebook compares supervised student training with **response-based** and **feature-based knowledge distillation**. The assignment focuses on transferring knowledge from a larger teacher to a compact student.
 
 ## Repository contents
 
@@ -80,8 +80,8 @@ The notebook also reports validation accuracy / F1 of **0.7625 / 0.7865** for re
 Use a Python environment with Jupyter and internet access for the initial dataset and model downloads.
 
 ```bash
-git clone https://github.com/TurgudValiyev2002/model-compression-quantization-pruning.git
-cd model-compression-quantization-pruning
+git clone https://github.com/TurgudValiyev2002/EDGE-AI---knowledge_distillation.git
+cd EDGE-AI---knowledge_distillation
 python -m pip install jupyterlab
 python -m jupyter lab Knowledge_Distillation_Assignment.ipynb
 ```
@@ -103,3 +103,11 @@ models/student_feature_kd/
 ```
 
 The feature-KD folder also contains the two learned projection state dictionaries. To inspect the recorded results without training, simply view the saved notebook outputs or the figures above.
+
+## Related Edge AI labs
+
+Explore the three companion repositories:
+
+- [Federated Learning](https://github.com/TurgudValiyev2002/EDGE-AI---Federated-Leaning): collaborative training across clients with local data.
+- [Model Compression](https://github.com/TurgudValiyev2002/EDGE-AI---model_compression): model optimization and deployment trade-offs.
+- [Knowledge Distillation](https://github.com/TurgudValiyev2002/EDGE-AI---knowledge_distillation): training a compact student using a larger teacher.
